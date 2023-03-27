@@ -27,20 +27,3 @@ class Bst:
         print(self.key)
         if self.right:
             self.right.print_tree()
-
-
-# create a new BST with a root node value of 10
-bst = Bst(10)
-
-# insert some values into the BST
-bst.insert(10)
-bst.insert(15)
-bst.insert(7)
-bst.insert(12)
-bst.insert(20)
-bst.insert(89)
-list1 = [90, 67, 32, 1, 4, 6]
-for i in list1:
-    bst.insert(i)
-# print the values of all nodes in ascending order
-bst.print_tree()
