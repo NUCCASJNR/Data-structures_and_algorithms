@@ -34,3 +34,15 @@ In a binary tree, insertion and deletion operations are straightforward, as you 
 In a binary search tree, insertion and deletion operations must maintain the order of the keys. If the new key is greater than the current node, it is inserted into the right subtree. If the new key is less than the current node, it is inserted into the left subtree. Deletion operations must also maintain the order of the keys, and may involve restructuring the tree to maintain balance.
 
 In summary, a binary search tree is a specialized type of binary tree that maintains the order of its keys, allowing for efficient search operations.
+
+-------------------------------------------------------------
+## How to insert into a binary tree
+-------------------------------------------------------------
+
+* If the tree is empty, create a new node and make it the root of the tree.
+
+* If the tree is not empty, start at the root node and compare the value of the new node to the value of the current node.
+
+* If the new node's value is less than the current node's value, move to the left child node. If the left child node is null, create a new node and make it the left child node. If the left child node already exists, repeat step 2 with the left child node as the new current node.
+
+* If the new node's value is greater than or equal to the current node's value, move to the right child node. If the right child node is null, create a new node and make it the right child node. If the right child node already exists, repeat step 2 with the right child node as the new current node
