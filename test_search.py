@@ -1,8 +1,6 @@
-from binary_trees.search_tree import RootNode
-
-#if __name__ == '__main__':
-    # create the binary search tree
-root = RootNode(8)
+#!/usr/bin/python3
+from Binary_trees.search_tree import RootNode
+root = RootNode(9)
 root.left = RootNode(3)
 root.right = RootNode(10)
 root.left.left = RootNode(1)
