@@ -1,0 +1,7 @@
+Write a Python function that creates a binary tree node. The function should take a parent node and a value as input, and should return a new binary tree node with the given value and parent
+
+Where:
+
+parent is a reference to the parent node of the node to create. This should be a reference to a BinaryTreeNode object or None if the new node is to be the root of the tree.
+value is the integer value to store in the new node.
+The new node should be initialized with the given value and parent, and should not have any child nodes. If the function fails for any reason (such as running out of memory), it should return None.
