@@ -4,12 +4,11 @@
 class RightNode:
     """This is a class that defines a node of a Binary Tree."""
 
-    def __init__(self, data, parent=None, left=None, right=None):
+    def __init__(self, parent):
         """This is a method that initializes a node of a Binary Tree."""
-        self.data = data
         self.parent = parent
-        self.left = left
-        self.right = right
+        self.left = None
+        self.right = None
 
     def right_node(self, value):
         """This is a method that inserts a node as the right-child of another node."""
