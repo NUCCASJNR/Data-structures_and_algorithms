@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-from Binary_trees.binary_tree_print import Test
+#from Binary_trees.binary_tree_print import Test
 from Binary_trees.insert_tree import Bst
+BinaryTreeNode = __import__('binary_tree_node').BinaryTreeNode
 
 bst = Bst(9)
 

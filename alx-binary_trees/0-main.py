@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-BinaryTreeNode = __import__('binary_tree_node').BinaryTreeNode
+BinaryTreeNode = __import__('0-binary_tree_node').BinaryTreeNode
 #from binary_tree_node import BinaryTreeNode
 def main():
     root = BinaryTreeNode(87, 98)
