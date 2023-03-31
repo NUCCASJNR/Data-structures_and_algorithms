@@ -10,12 +10,12 @@ class  LeftNode:
         Args:
             parent:  a reference to a node in a binary tree
 
-        """
-
-        self.parent = parent
-        self.left = None
-        self.right = None
-
+       """
+        
+       self.parent = parent
+       self.left = None
+       self.right = None
+        
     def insert_left(self, value):
         if self.parent is None:
             self.parent = value
