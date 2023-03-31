@@ -17,6 +17,8 @@ root.right.right = BinaryTreeNode(root.right, 512)
 
 root.binary_tree_print()
 
+print("Transversal in pre-order below:")
+
 """
     importing the PreOrder class that transverses a binary tree
     in the pre-order transversal method to print the nodes
