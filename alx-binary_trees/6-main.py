@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""
+    importing the BinaryTreeNode class that creates
+    a Binary tree node
+"""
+
 BinaryTreeNode = __import__('0-binary_tree_node').BinaryTreeNode
 root = BinaryTreeNode(None, 98)
 
@@ -11,7 +17,12 @@ root.right.right = BinaryTreeNode(root.right, 512)
 
 root.binary_tree_print()
 
-
+"""
+    importing the PreOrder class that transverses a binary tree
+    in the pre-order transversal method to print the nodes
+    in the binary tree created by the BinaryTreeNode class in pre
+    order transversal method
+"""
 PreOrder = __import__('6-binary_tree_preorder').PreOrder
 
 root = PreOrder(98)
