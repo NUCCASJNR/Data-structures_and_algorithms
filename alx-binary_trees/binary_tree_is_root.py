@@ -26,20 +26,7 @@ class Root:
             0 if the node is not a root
         """
         if self.parent is None:
-            """Node has no parent"""
             return 1
-        elif self.left is not None:
-            """ left Node has at least one child
-            so it is not a root node
-            """
+        elif self.parent is not None:
             return 0
-        elif self.right is not None:
-            """ right Node has at least one child
-            so it is not a root node
-            """
-            return 0
-        else:
-            """Node has a parent and no children"""
-            return 1
         
-   
