@@ -4,7 +4,7 @@
     a Binary tree node
 """
 
-BinaryTreeNode = __import__('0-binary_tree_node').BinaryTreeNode
+BinaryTreeNode = __import__('binary_tree_node').BinaryTreeNode
 root = BinaryTreeNode(None, 98)
 
 root.left = BinaryTreeNode(root, 12)
@@ -25,7 +25,7 @@ print("Transversal in pre-order below:")
     in the binary tree created by the BinaryTreeNode class in pre
     order transversal method
 """
-PreOrder = __import__('6-binary_tree_preorder').PreOrder
+PreOrder = __import__('binary_tree_preorder').PreOrder
 
 root = PreOrder(98)
 root.left = PreOrder(12)

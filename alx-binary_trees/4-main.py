@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-LeafNode = __import__('4-binary_tree_is_leaf').LeafNode
+LeafNode = __import__('binary_tree_is_leaf').LeafNode
 root = LeafNode(8)
 root.left = LeafNode(3)
 root.right = LeafNode(10)

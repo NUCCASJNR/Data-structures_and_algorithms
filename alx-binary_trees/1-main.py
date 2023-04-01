@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-LeftNode = __import__('1-binary_tree_insert_left').LeftNode
+LeftNode = __import__('binary_tree_insert_left').LeftNode
 
 root = LeftNode(23)
 l1 = [1,2,3,4,5,6,7,8,9,10]

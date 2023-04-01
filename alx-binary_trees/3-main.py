@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-DeleteNode = __import__('3-binary_tree_delete').DeleteNode
+DeleteNode = __import__('binary_tree_delete').DeleteNode
 
 root = DeleteNode(1)
 root.left = DeleteNode(2)
